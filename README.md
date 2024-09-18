@@ -1,4 +1,4 @@
-# HIPE_Experiment-4_DATA WRANGLING AND DATA VISUALIZATION
+# HIPE_Experiment_4_DATA WRANGLING AND DATA VISUALIZATION
 
 This repository contains Python codes for solving the given programming problems for this experiment. Full details of each solution using Python are included in this repository.
 
