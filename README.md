@@ -75,6 +75,35 @@ Description - This line of code filters the DataFrame df to show only those rows
 ![image](https://github.com/user-attachments/assets/99b40f8e-fbee-4063-8ea9-b98cd0000868)
 
 # 2. Creating Visualization that shows how the different features contributes to average grade.
+#### Library - import matplotlib.pyplot as plt
+
+![image](https://github.com/user-attachments/assets/d29e865e-da03-41a5-9154-328965e19b97)
+
+Description - A MATLAB-like interface for making several kinds of static, interactive, and animated visualizations in Python is provided by the matplotlib.pyplot module in the Matplotlib toolkit. It is extensively utilized for creating 2D plots and figures, including scatter plots, bar charts, and line graphs.
+
+#### Library - import seaborn as sns 
+
+![image](https://github.com/user-attachments/assets/a25c9664-bdd9-4565-80ad-87686fec1604)
+
+Description - Seaborn is a Matplotlib-based statistical visualization Library that makes it easier to create visually appealing and educational charts like violin plots and heatmaps. It works nicely with Pandas and provides color schemes and themes to improve the story's visual appeal.
+
+#### Function- df['Average'] = df[['Math', 'Electronics', 'GEAS', 'Communication']].mean(axis=1)
+
+![image](https://github.com/user-attachments/assets/2e9645ed-0a2c-4bb8-896d-80c88c9c7c59)
+
+Description - The average score for each student in the fields of math, electronics, GEAS, and communication is calculated on this line. Each row (i.e., each student's score) is averaged using the mean(axis=1) function, and the result is saved in a new column named "Average" in the DataFrame df.
+
+#### Function - plt.figure(figsize=(10, 6)) 
+
+![image](https://github.com/user-attachments/assets/d0fc2798-6c05-40ff-986e-e5c1d3b80cbe)
+
+Description - 
+
+
+
+
+
+
 
 
 
