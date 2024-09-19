@@ -47,6 +47,33 @@ Description - The original DataFrame **(df)** is filtered by this function to sh
 ## Output:
 ![image](https://github.com/user-attachments/assets/0ab76204-7897-4d46-864b-adde36e0c5ac)
 
+# B. Mindy DataFrame 
+#### Function - df['Average'] = df[['Math','Electronics', 'GEAS', 'Communication']].mean(axis = 1)
+
+![image](https://github.com/user-attachments/assets/9526906c-3cd4-4793-8cec-cc3e2455b40c)
+
+Description - This line of code computes the average score across the 'Math', 'Electronics', 'GEAS', and 'Communication' columns for each row in the DataFrame and stores the result in a new column called 'Average'. 
+
+- **df[['Math', 'Electronics', 'GEAS', 'Communication']]:** Selects the columns 'Math', 'Electronics', 'GEAS', and 'Communication' from the DataFrame.
+- **.mean(axis=1):** Calculates the mean of these columns for each row (axis=1 specifies row-wise operation).
+- **df['Average']** = ...: Create a new column, the 'Average' column, in the DataFrame df to store these calculated mean values.
+
+#### Function - mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']]
+
+![image](https://github.com/user-attachments/assets/c9f59344-edf4-4d62-b05f-696a8331eb00)
+
+Description - This line of code filters the DataFrame df to show only those rows where the 'Average' score is at least 55, the 'Hometown' is 'Mindanao,' and the 'Gender' is 'Female'. It then builds a new Mindy DataFrame with only the filtered rows 'Name, Track, Electronics, and Average' columns.
+
+- **df['Hometown']** **== 'Mindanao'**: Filters rows where the 'Hometown' column equals 'Mindanao'.
+- **df['Gender']** **== 'Female'**: Filters rows where the 'Gender' column equals 'Female'.
+- **df['Average'] >= 55**: Filters rows where the 'Average' column is greater than or equal to 55.
+- The **& operator** combines these conditions to include rows that meet all criteria.
+- **[['Name', 'Track', 'Electronics', 'Average']]**: Selects only the columns 'Name', 'Track', 'Electronics', and 'Average' from the filtered rows.
+- **mindy =** : Stores the filtered data in a new DataFrame named mindy
+- **mindy**: Displays the resulting DataFrame mindy with the filtered data. 
+
+
+
 
 
 
