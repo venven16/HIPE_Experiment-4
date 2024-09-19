@@ -87,6 +87,7 @@ Description - A MATLAB-like interface for making several kinds of static, intera
 
 Description - Seaborn is a Matplotlib-based statistical visualization Library that makes it easier to create visually appealing and educational charts like violin plots and heatmaps. It works nicely with Pandas and provides color schemes and themes to improve the story's visual appeal.
 
+### BAR PLOT 1
 #### Function- df['Average'] = df[['Math', 'Electronics', 'GEAS', 'Communication']].mean(axis=1)
 
 ![image](https://github.com/user-attachments/assets/2e9645ed-0a2c-4bb8-896d-80c88c9c7c59)
@@ -117,9 +118,12 @@ Description - plt.title('Average grade in terms of Track and Gender'): This defi
 
 Description - This line renders and displays the plot on the screen.
 
+### BAR PLOT 2 
+#### Function - plt.figure(figsize=(10,6))
 
+![image](https://github.com/user-attachments/assets/d0fc2798-6c05-40ff-986e-e5c1d3b80cbe)
 
-
+Description - This line ensures that the plot is clean and suitably scaled for improved visualization by setting the plot's dimensions to 10 inches wide by 6 inches height.
 
 
 
