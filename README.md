@@ -8,8 +8,7 @@ This repository contains Python codes for solving the given programming problems
 
 ### Instructions: 
 #### - Download the ECE Board Exam 2 dataset found on this link: bit.ly/ECEBoardExamDataset and write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter notebook in the dedicated submission bin.
-
-# ECE BOARD EXAM PROBLEM 
+ 
 #### The problem requires: 
 #### 1. Data Wrangling: Clean and transform the data to create specific data frames, like one containing "Name," "Gender," "Track," and whether "Math<70" with a constant "Hometown."
 
@@ -17,6 +16,7 @@ This repository contains Python codes for solving the given programming problems
 
 #### 3. Storytelling: Use the visuals and data frames to communicate findings and key observations from the data analysis. 
 
+# 1. ECE BOARD EXAM PROBLEM
 #### Library - import pandas as pd 
 
 ![image](https://github.com/user-attachments/assets/e64f5883-9f49-4d9a-8145-64aaded82949)
@@ -58,9 +58,9 @@ Description - This line of code computes the average score across the 'Math', 'E
 - **.mean(axis=1):** Calculates the mean of these columns for each row (axis=1 specifies row-wise operation).
 - **df['Average']** = ...: Create a new column, the 'Average' column, in the DataFrame df to store these calculated mean values.
 
-#### Function - mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']]
+#### Function - mindy = df[(df['Hometown'] == 'Mindanao') & (df['Gender'] == 'Female') & (df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']] mindy (this line must be at the second line)
 
-![image](https://github.com/user-attachments/assets/c9f59344-edf4-4d62-b05f-696a8331eb00)
+![image](https://github.com/user-attachments/assets/59c658bd-5f15-4bf7-a0a1-6a7e79e2015f)
 
 Description - This line of code filters the DataFrame df to show only those rows where the 'Average' score is at least 55, the 'Hometown' is 'Mindanao,' and the 'Gender' is 'Female'. It then builds a new Mindy DataFrame with only the filtered rows 'Name, Track, Electronics, and Average' columns.
 
@@ -70,7 +70,14 @@ Description - This line of code filters the DataFrame df to show only those rows
 - The **& operator** combines these conditions to include rows that meet all criteria.
 - **[['Name', 'Track', 'Electronics', 'Average']]**: Selects only the columns 'Name', 'Track', 'Electronics', and 'Average' from the filtered rows.
 - **mindy =** : Stores the filtered data in a new DataFrame named mindy
-- **mindy**: Displays the resulting DataFrame mindy with the filtered data. 
+- **mindy**: Displays the resulting DataFrame mindy with the filtered data.
+## Output: 
+![image](https://github.com/user-attachments/assets/99b40f8e-fbee-4063-8ea9-b98cd0000868)
+
+# 2. Creating Visualization that shows how the different features contributes to average grade.
+
+
+
 
 
 
