@@ -9,12 +9,12 @@ This repository contains Python codes for solving the given programming problems
 ## Instructions: 
  - **Download the ECE Board Exam 2 dataset found on this link: bit.ly/ECEBoardExamDataset and write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter notebook in the dedicated submission bin.**
  
-#### The problem requires: 
-#### 1. Data Wrangling: Clean and transform the data to create specific data frames, like one containing "Name," "Gender," "Track," and whether "Math<70" with a constant "Hometown."
+### The problem requires: 
+1. **Data Wrangling:** Clean and transform the data to create specific data frames, like one containing "Name," "Gender," "Track," and whether "Math<70" with a constant "Hometown."
 
-#### 2. Data Visualization: Create visuals (e.g., bar charts, pie charts) to illustrate patterns, trends, and insights in the data.
+2. **Data Visualization:** Create visuals (e.g., bar charts, pie charts) to illustrate patterns, trends, and insights in the data.
 
-#### 3. Storytelling: Use the visuals and data frames to communicate findings and key observations from the data analysis. 
+3. **Storytelling:** Use the visuals and data frames to communicate findings and key observations from the data analysis. 
 
 # 1. ECE BOARD EXAM PROBLEM
 #### Library - import pandas as pd 
