@@ -91,13 +91,42 @@ Description - Seaborn is a Matplotlib-based statistical visualization Library th
 
 ![image](https://github.com/user-attachments/assets/2e9645ed-0a2c-4bb8-896d-80c88c9c7c59)
 
-Description - The average score for each student in the fields of math, electronics, GEAS, and communication is calculated on this line. Each row (i.e., each student's score) is averaged using the mean(axis=1) function, and the result is saved in a new column named "Average" in the DataFrame df.
+Description - The average score for each student in math, electronics, GEAS, and communication is calculated on this line. Each row (i.e., each student's score) is averaged using the mean(axis=1) function, and the result is saved in a new column named "Average" in the DataFrame df.
 
-#### Function - plt.figure(figsize=(10, 6)) 
+#### Line - plt.figure(figsize=(10, 6)) 
 
 ![image](https://github.com/user-attachments/assets/d0fc2798-6c05-40ff-986e-e5c1d3b80cbe)
 
-Description - 
+Description - This line ensures that the plot is clean and suitably scaled for improved visualization by setting the plot's dimensions to 10 inches wide by 6 inches height.
+
+#### Function - sns.barplot(x='Track', y='Average', hue='Gender', data=df) 
+
+![image](https://github.com/user-attachments/assets/18e45d6f-f188-478c-96b2-6399700a6254)
+
+Description - Seaborn creates a bar plot in sns.barplot(x='Track', y='Average', hue='Gender', data=df). Different "Track" categories, such as communication and instrumentation, are represented by the x-axis, while average grades are displayed on the y-axis. Color coding is added via the hue='Gender' parameter to distinguish between the male and female genders inside each track.
+
+#### Function - plt.title('Average grade in terms of Track and Gender')
+
+![image](https://github.com/user-attachments/assets/f04fc6d4-e024-41e3-bfdf-0e00f78a7396)
+
+Description - plt.title('Average grade in terms of Track and Gender'): This defines the plot's title and indicates that it displays average grades broken down into "Track" and "Gender" categories.
+
+#### Line - plt.show()
+
+![image](https://github.com/user-attachments/assets/839a6710-cf86-4c96-ab72-5cea32a38353)
+
+Description - This line renders and displays the plot on the screen.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
