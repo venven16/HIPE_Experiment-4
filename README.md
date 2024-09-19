@@ -6,8 +6,8 @@ This repository contains Python codes for solving the given programming problems
 #### 1. To determine the functions and scripts required for data cleaning and visualization
 #### 2. Using and utilizing the many codes and functions to construct a Python application that will be utilized for data visualization and wrangling.
 
-### Instructions: 
-#### - Download the ECE Board Exam 2 dataset found on this link: bit.ly/ECEBoardExamDataset and write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter notebook in the dedicated submission bin.
+## Instructions: 
+ - **Download the ECE Board Exam 2 dataset found on this link: bit.ly/ECEBoardExamDataset and write a Python script/code in the Jupyter Notebook to do the given problems. You may submit your Jupyter notebook in the dedicated submission bin.**
  
 #### The problem requires: 
 #### 1. Data Wrangling: Clean and transform the data to create specific data frames, like one containing "Name," "Gender," "Track," and whether "Math<70" with a constant "Hometown."
